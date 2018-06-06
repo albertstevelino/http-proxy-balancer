@@ -1,0 +1,20 @@
+{
+  "name": "http-proxy-balancer",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Not an open source project. Private use only.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js --port=7001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertstevelino/http-proxy-balancer.git"
+  },
+  "dependencies": {
+    "dotenv": "6.0.0",
+    "http-proxy": "1.17.0",
+    "lodash": "4.17.10",
+    "yargs": "11.0.0"
+  }
+}
